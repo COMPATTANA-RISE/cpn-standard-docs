@@ -78,7 +78,7 @@ const config: Config = {
       // title: 'Compattana Standard',
       logo: {
         alt: 'Compattana Logo',
-        src: 'img/cpn-logo.webp',
+        src: '/img/cpn-logo.webp',
       },
       items: [
         {

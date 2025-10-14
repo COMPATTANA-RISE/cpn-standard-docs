@@ -3,6 +3,9 @@
 ## Response เมื่อสำเร็จ
 ```json
 {
+  "success": true,
+  // "statusCode": 0, // custom status code (ถ้ามี) ถ้าไม่มี ให้ return http status code เช่น 200
+  "message": "fetch data successfuly",
   "data": {
     "userId": "u001",
     "email": "user@example.com"

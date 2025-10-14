@@ -6,5 +6,5 @@
 - เขียน changelog ทุกครั้งที่มีการเปลี่ยน API
 
 ## การจัดการ Migration ฐานข้อมูล
-- ใช้เครื่องมือ migration กลาง (Prisma, Liquibase)
+- ใช้เครื่องมือ migration กลาง (Prisma, Laravel Eloqent Model (ORM))
 - ต้องมีแผน rollback เสมอ
