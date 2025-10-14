@@ -87,7 +87,7 @@ const config: Config = {
           position: 'left',
           label: 'คู่มือ',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'แหล่งความรู้', position: 'left'},
         {
           href: 'https://github.com/orgs/COMPATTANA-RISE/repositories',
           label: 'GitHub',
