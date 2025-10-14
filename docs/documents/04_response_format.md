@@ -33,9 +33,11 @@
 ```json
 {
   "data": [ ... ],
-  "page": 1,
-  "limit": 20,
-  "total": 120
+  "paginate": {
+    "page": 1,
+    "limit": 20,
+    "total": 120
+  }
 }
 ```
 
