@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcompattana_centre_standard=globalThis.webpackChunkcompattana_centre_standard||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/cpn-standard-docs/blog","blogTitle":"Blog","authorsListPath":"/cpn-standard-docs/blog/authors"}')}}]);
