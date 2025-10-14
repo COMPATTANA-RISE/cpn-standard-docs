@@ -1,41 +1,41 @@
-# Website
+# เว็บไซต์
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+เว็บไซต์นี้สร้างด้วย [Docusaurus](https://docusaurus.io/) ซึ่งเป็นเครื่องมือสร้างเว็บไซต์แบบ static ที่ทันสมัย
 
-## Installation
-
-```bash
-yarn
-```
-
-## Local Development
+## การติดตั้ง
 
 ```bash
-yarn start
+pnpm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+## การพัฒนาในเครื่อง
 
 ```bash
-yarn build
+pnpm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+คำสั่งนี้จะเริ่มเซิร์ฟเวอร์สำหรับการพัฒนาในเครื่องและเปิดหน้าต่างเบราว์เซอร์ การเปลี่ยนแปลงส่วนใหญ่จะแสดงผลแบบเรียลไทม์โดยไม่ต้องรีสตาร์ทเซิร์ฟเวอร์
 
-## Deployment
-
-Using SSH:
+## การสร้างเว็บไซต์
 
 ```bash
-USE_SSH=true yarn deploy
+pnpm build
 ```
 
-Not using SSH:
+คำสั่งนี้จะสร้างเนื้อหาแบบ static ลงในโฟลเดอร์ `build` และสามารถนำไปใช้กับบริการโฮสติ้งเนื้อหาแบบ static ใดๆ ก็ได้
+
+## การ Deploy
+
+ใช้ SSH:
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+USE_SSH=true pnpm deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+ไม่ใช้ SSH:
+
+```bash
+GIT_USER=<ชื่อผู้ใช้ GitHub ของคุณ> pnpm deploy
+```
+
+หากคุณใช้ GitHub Pages สำหรับโฮสติ้ง คำสั่งนี้เป็นวิธีที่สะดวกในการสร้างเว็บไซต์และ push ไปยัง branch `gh-pages`
