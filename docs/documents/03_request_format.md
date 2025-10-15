@@ -93,7 +93,7 @@
 | `gte` มากกว่าหรือเท่ากับ | `price[gte]=100` |
 | `lt` น้อยกว่า | `price[lt]=500` |
 | `lte` น้อยกว่าหรือเท่ากับ | `price[lte]=500` |
-| ช่วงรวดเดียว | `createdAt[between]=2025-10-01,2025-10-14` (ISO8601, UTC) |
+| ช่วงรวดเดียว | `created_at[between]=2025-10-01,2025-10-14` (ISO8601, UTC) |
 
 วันที่ใช้ ISO8601: `YYYY-MM-DD` หรือ `YYYY-MM-DDTHH:mm:ssZ`
 
