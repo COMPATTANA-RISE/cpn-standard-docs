@@ -103,7 +103,7 @@
 โหมดกำหนดโดย `searchType` หรืออัตโนมัติเมื่อมี `q`
 | โหมด | พารามิเตอร์ | ตัวอย่าง | พฤติกรรม |
 |---|---|---|---|
-| Exact | `name` | `name=“Nissan Almera”` | ตรงเป๊ะ (case-insensitive) |
+| Exact | `name` | `name=Nissan%20Almera` (Nissan Almera) | ตรงเป๊ะ (case-insensitive) |
 | Prefix | `name[prefix]` | `name[prefix]=nis` | เริ่มต้นด้วย |
 | Contains | `name[contains]` | `name[contains]=almera` | มีคำย่อย |
 | Fuzzy | `name[fuzzy]` | `name[fuzzy]=almra` | ผิดสะกดเล็กน้อย |
